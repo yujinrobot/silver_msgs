@@ -1,0 +1,10 @@
+# IoT event state
+uint8 IoT_STANDBY_MODE   = 0
+uint8 IoT_TOILET_EVENT   = 1     # Emergency mode
+
+
+
+
+
+Header  header
+uint8   iot_event_state       # Enum
