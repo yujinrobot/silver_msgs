@@ -6,12 +6,8 @@ uint8 IoT_EMERGE_EVENT   = 1
 
 Header  header
 uint8   iot_event_state    		 # Enum
+uint8   emerg_position_id
 
-
-# IoT Status
-time	stamp
-time	start
-time	last_motion				# last motion sensing time
-
-uint8	position_id
-
+time    emerg_stamp
+time    emerg_start
+time    emerg_last_motion		 # last motion sensing time

@@ -4,7 +4,12 @@ project(silver_msgs)
 find_package(catkin REQUIRED COMPONENTS message_generation
                                         std_msgs)
 
-add_message_files(FILES Mode.msg)
+add_message_files(FILES RobotStatus.msg
+                        TabletStatus.msg
+                        IoTEmergStatus.msg
+                        IoTMotionStatus.msg
+                        IoTTouchStatus.msg
+                        IoTWarningStatus.msg)
 
 generate_messages(DEPENDENCIES std_msgs)
 
