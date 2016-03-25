@@ -11,5 +11,5 @@ uint8 INIT_MODE         = 11  # robot initilizing
 
 Header  header
 uint8   mode_state       # Enum
-bool    robot_contol     # True : controls by ROBOT, False : controls by Tablet or Mobile
+bool    robot_control     # True : controls by ROBOT, False : controls by Tablet or Mobile
 bool    move_done        # True : moving done, False : robot moving..
