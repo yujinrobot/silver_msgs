@@ -13,6 +13,8 @@ uint8 TAB_EVENT_USER_NOTOK        = 11  # when 'Not OK or No Good' clicked, situ
 uint8 TAB_EVNET_EMERG_REQ_REMOTE  = 2   # when remote mode requested
 uint8 TAB_EVENT_EMERG_OFF	        = 3   # when remote mode finished
 
+uint8 TAB_EVENT_REMOTE_OFF        = 12
+
 
 Header  header
 uint8   tablet_status                   # Enum status
