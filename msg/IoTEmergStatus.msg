@@ -9,5 +9,5 @@ uint8   iot_event_state    		 # Enum
 uint8   emerg_position_id
 
 uint64    emerg_stamp
-time    emerg_start
-time    emerg_last_motion		 # last motion sensing time
+uint64    emerg_start
+uint64    emerg_last_motion		 # last motion sensing time
