@@ -22,3 +22,12 @@ uint8   warning_pulse
 uint8   warning_blood_pressure
 uint8   warning_blood_sugar
 uint8   warning_blood_temperature
+
+# SSU proposal - 04.18
+#Warning State
+int16 activity_time
+int16 slept_time
+int16 break_time
+ 
+#Activity value
+int16 activity_value
