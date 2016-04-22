@@ -8,6 +8,6 @@ Header  header
 uint16   iot_event_state    		 # Enum
 uint16   motion_position_id
 
-uint64    motion_stamp
+time    motion_stamp
 bool    motion_is_moved
 uint16   motion_duration			 # seconds

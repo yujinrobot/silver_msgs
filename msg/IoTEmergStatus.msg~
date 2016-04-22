@@ -1,12 +1,12 @@
 # IoT event state
-uint16 IoT_NORMAL_MODE    = 0
-uint16 IoT_EMERGE_EVENT   = 1
+uint8 IoT_NORMAL_MODE    = 0
+uint8 IoT_EMERGE_EVENT   = 1
 
 
 
 Header  header
-uint16   iot_event_state    		 # Enum
-uint16   emerg_position_id
+uint8   iot_event_state    		 # Enum
+uint8   emerg_position_id
 
 uint64    emerg_stamp
 uint64    emerg_start
