@@ -1,33 +1,21 @@
 # IoT event state
-uint16 IoT_SYMPTOM_EVENT   = 2                           # symptom alarm event
-
-
-# symptom status
-uint16 IoT_SYMPTOM_STATUS_PULSE              = 1		# pulse
-uint16 IoT_SYMPTOM_STATUS_BLOOD_PRESSURE     = 2		# blood pressure
-uint16 IoT_SYMPTOM_STATUS_BLOOD_SUGAR        = 3		# blood sugar
-uint16 IoT_SYMPTOM_STATUS_BODY_TEMP          = 4		# body temperature
-
+uint16 IoT_WARNING_EVENT   = 2   # health warning alarm event
 
 
 # IoT warning status
 Header  header
-uint16   iot_event_state    		 # Enum
-uint16   iot_warning_status		 # Enum
+uint16  iot_event_state    		 # Enum
+uint16  warning_position_id
 
-uint16   warning_position_id
-uint64    warning_stamp
-uint64    warning_start
-uint16   warning_pulse
-uint16   warning_blood_pressure
-uint16   warning_blood_sugar
-uint16   warning_blood_temperature
-
-# SSU proposal - 04.18
 #Warning State
+int16 warning_state              # 0:Normal, 1:Warning, 2:Caution
+
 int16 activity_time
+int16 activity_time_preferred
 int16 slept_time
+int16 slept_time_preferred
 int16 break_time
+int16 break_time_preferred
  
 #Activity value
 int16 activity_value
