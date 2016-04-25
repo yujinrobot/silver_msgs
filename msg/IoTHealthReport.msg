@@ -14,10 +14,11 @@ int16[] ambulation_log
 # VISION State / Log(Face)
 int16[] face_recognition_status
 int16[] face_recognition_log
-  
+
 # Wearable Device State Log
 int16[] heartbeat_status
 int16[] heartbeat_log
+
 int16[] activity_status
 int16[] activity_log
 

@@ -7,10 +7,9 @@ find_package(catkin REQUIRED COMPONENTS message_generation
 add_message_files(FILES RobotStatus.msg
                         TabletStatus.msg
                         IoTEmergStatus.msg
-                        IoTMotionStatus.msg
-                        IoTTouchStatus.msg
                         IoTWarningStatus.msg
-			IoTButtonStatus.msg)
+	 					IoTButtonStatus.msg
+						IoTHealthReport.msg)
 
 generate_messages(DEPENDENCIES std_msgs)
 
