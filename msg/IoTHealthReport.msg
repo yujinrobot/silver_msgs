@@ -9,7 +9,7 @@ int16[] relationship_indicator
 int16[] recent_indicator_log
 
 # VISION State Log(ambulation)
-int16[] ambulation_log
+uint64[] ambulation_log
 
 # VISION State / Log(Face)
 int16[] face_recognition_status
@@ -17,15 +17,15 @@ int16[] face_recognition_log
 
 # Wearable Device State Log
 int16[] heartbeat_status
-int16[] heartbeat_log
+uint64[] heartbeat_log
 
 int16[] activity_status
-int16[] activity_log
+uint64[] activity_log
 
 # IoT Manager
-int16[] toilet_entree
-int16[] action_state
+uint64[] toilet_entree
+uint64[] action_state
     
 # emerg log
-int64[] emerg_time_list
-int64[] emerg_time_list_duration
+uint64[] emerg_time_list
+uint64[] emerg_time_list_duration
