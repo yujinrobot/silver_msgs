@@ -8,8 +8,8 @@ add_message_files(FILES RobotStatus.msg
                         TabletStatus.msg
                         IoTEmergStatus.msg
                         IoTWarningStatus.msg
-	 					IoTButtonStatus.msg
-						IoTHealthReport.msg)
+			IoTButtonStatus.msg
+			IoTHealthReport.msg)
 
 generate_messages(DEPENDENCIES std_msgs)
 

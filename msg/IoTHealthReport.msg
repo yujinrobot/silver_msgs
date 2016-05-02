@@ -1,5 +1,6 @@
+Header header
 #Main report value
-int16[] Update_date
+uint64[] Update_date
 int16[] recent_indicator
 int16[] health_indicator
 int16[] life_indicator
