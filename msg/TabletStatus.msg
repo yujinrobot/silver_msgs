@@ -11,6 +11,7 @@ uint8 TAB_STATUS_REMOTE                      = 9   # remote control mode by tabl
 uint8 TAB_EVENT_NONE                         = 0   # no event, normal state
 uint8 TAB_EVENT_USER_OK                      = 1   # when 'OK' clicked
 uint8 TAB_EVENT_USER_NOTOK                   = 11  # when 'Not OK or No Good' clicked, situation
+uint8 TAB_EVENT_ESC                          = 99  # common 'ESC' event, ; comback robot station
 
 uint8 TAB_EVNET_EMERG_REQ_REMOTE             = 2   # when emergency remote mode requested
 uint8 TAB_EVENT_EMERG_OFF                    = 3   # when emergency remote mode finished
