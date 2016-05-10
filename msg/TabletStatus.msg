@@ -3,6 +3,7 @@ uint8 TAB_STATUS_NORMAL                      = 0
 uint8 TAB_STATUS_EMERGENCY                   = 1   # emergency mode
 uint8 TAB_STATUS_BUTTON                      = 2   # called button, related to familiy timeline
 uint8 TAB_STATUS_HEALTH                      = 3   # health warning
+uint8 TAB_STATUS_FINALREPORT                 = 4   # final reporting
 
 uint8 TAB_STATUS_REMOTE                      = 9   # remote control mode by tablet
 
@@ -25,6 +26,7 @@ uint8 TAB_EVENT_HEALTH_CHECKED_USER_NOWEARED = 32
 uint8 TAB_EVENT_HEALTH_CHECKED_USER_SLEEP    = 33
 uint8 TAB_EVENT_HEALTH_OFF                   = 34  # health mode off
 
+uint8 TAB_EVENT_FINALREPORT_OFF              = 44  # final report off
 
 
 Header  header
