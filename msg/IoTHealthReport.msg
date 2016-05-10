@@ -1,5 +1,14 @@
+# IoT event status
+uint16 IoT_REPORT_EVENT = 4
+
+
+# IoT event status
 Header header
-#Main report value
+uint16 iot_event_state          # 4 (health report scenario)
+uint16 report_position_id
+
+
+# Main report value
 uint64[] Update_date
 int16[] recent_indicator
 int16[] health_indicator
