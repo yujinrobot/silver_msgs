@@ -10,6 +10,8 @@ uint8 FAMILIY_MODE      = 4   # on 'iot_button_event'
 
 uint8 HEALTH_MODE       = 5   # on 'iot_warning_event'
 
+uint8 FINALREPORT_MODE  = 6   # on 'iot_report_event'
+
 
 
 
